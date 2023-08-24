@@ -1,12 +1,12 @@
 from datetime import datetime
 
 class Pedido:
-    def __init__(self, cliente, restaurante, listaComidas, estado, cadete):
+    def __init__(self, cliente, restaurante, listaComidas, estado):
         self.cliente = cliente
         self.restaurante = restaurante
         self.listaComidas = listaComidas
         self.estado = estado
-        self.cadete = cadete
+        self.cadete = None
         self.fechaPedido = datetime.now()
 
     def calcularPrecioTotal(self):
