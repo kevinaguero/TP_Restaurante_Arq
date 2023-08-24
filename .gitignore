@@ -1,2 +1,7 @@
 *.pyc
 desktop.ini 
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/TP_Restaurante_Arq.iml
+/.idea/vcs.xml
